@@ -25,9 +25,9 @@
 // Y servo angle will stay in [min_y, max_y] range
 // to be ajsuted to the size of your living room
 
-float min_x = 60;
-float max_x = 130;
-float min_y = 10;
+float min_x = 80;
+float max_x = 260;
+float min_y = 80;
 float max_y = 140;
 int min_freeze = 100;
 int max_freeze = 6000;
