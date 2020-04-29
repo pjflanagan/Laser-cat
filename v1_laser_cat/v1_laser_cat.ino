@@ -25,10 +25,10 @@
 // Y servo angle will stay in [min_y, max_y] range
 // to be ajsuted to the size of your living room
 
-float min_x = 80;
-float max_x = 260;
-float min_y = 80;
-float max_y = 140;
+float min_x = 60;
+float max_x = 100;
+float min_y = 60;
+float max_y = 260;
 int min_freeze = 100;
 int max_freeze = 6000;
 float minimal_movement = 5;
@@ -55,8 +55,6 @@ int pos = 0;
 void setup() {
   y_servo.attach(6);  // attaches the y servo on pin 6 to the servo object
   x_servo.attach(9);  // attaches the x servo on pin 9 to the servo object
-  pinMode (13, OUTPUT);
-  digitalWrite (13, HIGH);  // switch on  the laser
   
   //Place the servos in the center at the beginning 
   y_servo.write(y_position); 
